@@ -1,4 +1,4 @@
-name = "# fly-ai-chat-hggf"
+name = "fly-ai-chat-hggf"
 main = "src/worker.js"
 compatibility_date = "2026-10-06"
 
