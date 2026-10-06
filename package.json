@@ -14,7 +14,7 @@
     "cloudflare-worker",
     "huggingface"
   ],
-  "author": "FlyTripVisa Team",
+  "author": "fly-ai-chat-hggf Team",
   "license": "MIT",
   "devDependencies": {
     "wrangler": "^3.0.0"
