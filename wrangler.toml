@@ -1,0 +1,10 @@
+name = "# fly-ai-chat-hggf"
+main = "src/worker.js"
+compatibility_date = "2026-10-06"
+
+[vars]
+HF_MODEL = "Qwen/Qwen2.5-72B-Instruct"
+
+routes = [
+  { pattern = "flytripvisa.site/api/*", zone_name = "flytripvisa.site" }
+]
