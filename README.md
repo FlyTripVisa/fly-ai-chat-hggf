@@ -1,5 +1,22 @@
 # fly-ai-chat-hggf
 
+# fly-ai-chat-hggf - Global Visa & Travel Gateway
+
+An AI-powered travel agency platform built with Cloudflare Workers and Hugging Face AI Gateway.
+
+## Environment Variables / Secrets Needed
+Add the following in Cloudflare Worker Secrets:
+- `HF_API_KEY`: Hugging Face Access Token with Inference rights.
+
+Add the following in GitHub Repository Secrets:
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+## Local Development
+```bash
+npm install
+npm run dev
+
 
 # fly-ai-chat-hggf-project/
 ├── .github/
