@@ -1,16 +1,23 @@
 # fly-ai-chat-hggf
 
 
-flytripvisa-project/
+# fly-ai-chat-hggf-project/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml            # GitHub Actions automated deployment
+│       └── deploy.yml          # GitHub Actions CI/CD deployment
 ├── public/
-│   ├── index.html                # Main landing page with AI Chat UI
-│   ├── apply.html                # Visa Application page
-│   ├── dashboard.html            # Flights & Hotels booking dashboard
-│   └── contact.html              # Contact page
+│   ├── index.html              # Main Landing Page + AI Chat Widget
+│   ├── apply.html              # Visa Application Form Page
+│   ├── dashboard.html          # Flights / Hotels Dashboard
+│   ├── admin.html              # Admin Management Panel
+│   ├── login.html              # User Authentication Page
+│   ├── jingpay.html            # Payment Gateway Interface
+│   ├── contact.html            # Contact & Support Page
+│   ├── service_terms.html      # Terms of Service
+│   └── privacy_policy.html     # Privacy Policy
 ├── src/
-│   └── worker.js                 # Cloudflare Worker (Backend API Proxy for Hugging Face)
-├── wrangler.toml                 # Cloudflare Worker configuration & routing
-└── README.md                     # Project documentation
+│   └── worker.js               # Cloudflare Worker Backend Proxy for Hugging Face
+├── .gitignore                  # Git Ignore configuration
+├── package.json                # Project Dependencies & Scripts
+├── README.md                   # Setup Documentation
+└── wrangler.toml               # Cloudflare Worker Configuration
