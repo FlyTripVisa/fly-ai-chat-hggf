@@ -1,12 +1,21 @@
 {
   "name": "fly-ai-chat-hggf",
   "version": "1.0.0",
-  "description": "Fly Trip Visa Portal & AI Gateway Backend",
+  "description": "Fly Trip Visa - Global Visa, Flights & Hotel Booking System",
   "main": "src/worker.js",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
   },
+  "keywords": [
+    "flytripvisa",
+    "visa",
+    "travel",
+    "cloudflare-worker",
+    "huggingface"
+  ],
+  "author": "FlyTripVisa Team",
+  "license": "MIT",
   "devDependencies": {
     "wrangler": "^3.0.0"
   }
